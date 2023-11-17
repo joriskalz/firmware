@@ -18,7 +18,7 @@ api:
 ota:
 
 dashboard_import:
-  package_import_url: github://esphome/firmware/voice-assistant/m5stack-atom-echo.yaml@main
+  package_import_url: github://joriskalz/firmware/voice-assistant/m5stack-atom-echo.yaml@main
 
 wifi:
   ap:
@@ -46,7 +46,6 @@ speaker:
 voice_assistant:
   id: va
   microphone: echo_microphone
-  speaker: echo_speaker
   noise_suppression_level: 2
   auto_gain: 31dBFS
   volume_multiplier: 2.0
