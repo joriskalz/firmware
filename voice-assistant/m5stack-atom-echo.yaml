@@ -113,7 +113,7 @@ globals:
   - id: is_muted
     type: bool
     restore_value: no
-    initial_value: 'false'
+    initial_value: 'true'
     
 binary_sensor:
   - platform: gpio
